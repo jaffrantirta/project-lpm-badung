@@ -29,7 +29,8 @@ export default function Footer() {
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 LPM Kabupaten Badung. Hak Cipta Dilindungi.
+            © {new Date().getFullYear()} LPM Kabupaten Badung. Hak Cipta
+            Dilindungi.
           </p>
         </div>
       </div>

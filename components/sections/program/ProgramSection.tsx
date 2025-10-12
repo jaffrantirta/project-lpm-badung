@@ -1,5 +1,6 @@
 import React from "react";
 import { programsData } from "@/data/program/programsData";
+import Link from "next/link";
 
 export default function ProgramSection() {
   return (
@@ -42,11 +43,14 @@ export default function ProgramSection() {
                     <strong>Durasi:</strong> {program.duration}
                   </p>
                 </div>
-                <button
-                  className={`w-full ${program.color} text-white py-2 rounded-lg hover:${program.accent} transition duration-300`}
-                >
-                  Lihat Lebih Lanjut
-                </button>
+                <div className="`w-full flex">
+                  <Link
+                    href={program.link}
+                    className={`w-full text-center ${program.color} text-white py-2 rounded-lg hover:${program.accent} transition duration-300`}
+                  >
+                    Lihat Lebih Lanjut
+                  </Link>
+                </div>
               </div>
             </div>
           ))}
