@@ -1,9 +1,12 @@
 export default function VisionMissionSection() {
   const missions = [
-    "Meningkatkan kapasitas dan kualitas sumber daya manusia",
-    "Mengembangkan ekonomi kerakyatan yang berkelanjutan",
-    "Memperkuat partisipasi masyarakat dalam pembangunan",
-    "Melestarikan nilai-nilai budaya lokal",
+    "Memperkokoh kerukunan hidup umat beragama serta melestarikan tradisi, adat, seni dan budaya Bali.",
+    "Meningkatkan kualitas kehidupan krama Badung di bidang Pendidikan, Kesehatan dan kesejahteraan sosial.",
+    "Menciptakan pusat-pusat pertumbuhan ekonomi baru secara merata diseluruh wilayah Kabupaten Badung melalui optimalisasi potensi wilayah.",
+    "Mengintegrasikan pembangunan sektor pertanian dengan pariwisata.",
+    "Meningkatkan kualitas infrastruktur publik di Kawasan pariwisata, permukiman serta membangun jaringan jalan baru.",
+    "Mewujudkan Tata Kelola pemerintahan yang transparan, akuntabel, dan profesional berbasis kompetensi dan digitalisasi.",
+    "Meningkatkan promosi pariwisata.",
   ];
 
   return (
@@ -18,10 +21,9 @@ export default function VisionMissionSection() {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="bg-blue-900 text-white p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-6 text-center">VISI</h3>
-            <p className="text-lg leading-relaxed text-center">
-              &quot;Terwujudnya masyarakat Kabupaten Badung yang mandiri,
-              sejahtera, dan berpartisipasi aktif dalam pembangunan
-              berkelanjutan&quot;
+            <p className="text-lg leading-relaxed text-center mt-0 md:mt-56">
+              &quot;MEWUJUDKAN PARIWISATA BADUNG YANG BERKUALITAS BERLANDASKAN
+              NILAI-NILAI NANGUN SAT KERTHI LOKA BALI&quot;
             </p>
           </div>
           <div className="bg-gray-100 p-8 rounded-lg">
@@ -31,10 +33,12 @@ export default function VisionMissionSection() {
             <ul className="space-y-4 text-gray-700">
               {missions.map((mission, index) => (
                 <li key={index} className="flex items-start">
-                  <span className="bg-blue-900 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
-                    {index + 1}
-                  </span>
-                  <span>{mission}</span>
+                  <div className="flex-shrink-0">
+                    <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-blue-900 text-white text-sm font-bold mr-3">
+                      {index + 1}
+                    </span>
+                  </div>
+                  <p className="flex-1 leading-relaxed">{mission}</p>
                 </li>
               ))}
             </ul>

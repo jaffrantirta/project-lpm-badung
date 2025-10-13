@@ -10,19 +10,24 @@ export default function Navigation() {
   const navLinks = [
     { name: "Beranda", href: "/" },
     { name: "Tentang Kami", href: "/tentang-kami" },
-    { name: "Program", href: "/program" },
+    // { name: "Program", href: "/program" },
   ];
 
   return (
     <nav className="bg-blue-900 shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
+          <div className="flex items-center space-x-3">
             <div className="flex-shrink-0">
-              <h1 className="text-white text-xl font-bold">
-                LPM Kabupaten Badung
-              </h1>
+              <img
+                src="/logo.jpg"
+                alt="Logo LPM Kabupaten Badung"
+                className="h-10 object-contain rounded-lg"
+              />
             </div>
+            <h1 className="text-white text-sm xl:text-xl font-bold">
+              LPM KABUPATEN BADUNG
+            </h1>
           </div>
 
           {/* Desktop Menu */}

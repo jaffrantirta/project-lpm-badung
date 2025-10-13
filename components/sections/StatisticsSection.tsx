@@ -13,10 +13,10 @@ export default function StatisticsSection() {
   const [counts, setCounts] = useState([0, 0, 0, 0]);
 
   const stats: StatItem[] = [
-    { target: 247, label: "Kasus Ditangani" },
-    { target: 156, label: "Program Selesai" },
-    { target: 89, label: "Desa Terlayani" },
-    { target: 12450, label: "Masyarakat Terdampak" },
+    { target: 6, label: "Kecamatan" },
+    { target: 16, label: "Kelurahan" },
+    { target: 46, label: "Desa" },
+    { target: 356, label: "Banjar" },
   ];
 
   useEffect(() => {
@@ -78,11 +78,11 @@ export default function StatisticsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Pencapaian Tahun 2024
+            Menjangkau Lebih Luas, Melayani Lebih Dekat
           </h2>
           <div className="w-24 h-1 bg-white mx-auto mb-8"></div>
           <p className="text-xl">
-            Jumlah kasus dan program yang telah ditangani
+            Cakupan pelayanan dan jangkauan lembaga hingga tingkat banjar
           </p>
         </div>
         <div className="grid md:grid-cols-4 gap-8">

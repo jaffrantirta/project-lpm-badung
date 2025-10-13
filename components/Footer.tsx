@@ -4,7 +4,14 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">LPM Kabupaten Badung</h3>
+            <div className="flex-shrink-0">
+              <img
+                src="/logo.jpg"
+                alt="Logo LPM Kabupaten Badung"
+                className="h-10 object-contain rounded-lg"
+              />
+            </div>
+            <h3 className="text-xl font-bold mb-4">LPM KABUPATEN BADUNG</h3>
             <p className="text-gray-400 mb-4">
               Lembaga Pemberdayaan Masyarakat yang berkomitmen untuk memajukan
               kesejahteraan masyarakat Badung.
