@@ -19,7 +19,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
 
   return (
     <div className="p-8">
-      <div className="relative w-3/4 mx-auto overflow-hidden rounded-2xl shadow-lg">
+      <div className="relative w-full md:w-3/4 mx-auto overflow-hidden rounded-2xl shadow-lg">
         <div className="relative">
           <img
             src={images[current]}

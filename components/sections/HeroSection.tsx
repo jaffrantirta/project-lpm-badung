@@ -13,9 +13,9 @@ export default function HeroSection() {
             Membangun masyarakat yang mandiri, sejahtera, dan berpartisipasi
             aktif dalam pembangunan daerah
           </p>
-          <button className="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition duration-300 shadow-lg">
+          {/* <button className="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition duration-300 shadow-lg">
             Pelajari Lebih Lanjut
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
