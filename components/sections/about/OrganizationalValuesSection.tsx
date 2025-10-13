@@ -31,8 +31,11 @@ export default function OrganizationalValuesSection() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-lg font-semibold mb-2">INTEGRITAS</h3>
-            <p className="text-sm">Jujur dan konsisten dalam setiap tindakan</p>
+            <h3 className="text-lg font-semibold mb-2">SPECIFIC</h3>
+            <p className="text-sm">
+              Setiap program dirancang dengan tujuan yang jelas dan fokus pada
+              kebutuhan masyarakat.
+            </p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg hover:bg-blue-900 hover:text-white transition duration-300 group">
             <div className="w-16 h-16 bg-blue-900 group-hover:bg-white rounded-full flex items-center justify-center mx-auto mb-4">
@@ -50,8 +53,11 @@ export default function OrganizationalValuesSection() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-lg font-semibold mb-2">PROFESIONAL</h3>
-            <p className="text-sm">Kompeten dan berkualitas dalam pelayanan</p>
+            <h3 className="text-lg font-semibold mb-2">MEASURABLE</h3>
+            <p className="text-sm">
+              Kami menetapkan indikator keberhasilan yang bisa diukur agar
+              hasilnya dapat dievaluasi secara nyata.
+            </p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg hover:bg-blue-900 hover:text-white transition duration-300 group">
             <div className="w-16 h-16 bg-blue-900 group-hover:bg-white rounded-full flex items-center justify-center mx-auto mb-4">
@@ -69,9 +75,10 @@ export default function OrganizationalValuesSection() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-lg font-semibold mb-2">KOLABORATIF</h3>
+            <h3 className="text-lg font-semibold mb-2">ACHIEVABLE</h3>
             <p className="text-sm">
-              Bekerja sama untuk mencapai tujuan bersama
+              Target yang dibuat realistis dan sesuai dengan kapasitas sumber
+              daya yang dimiliki.
             </p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg hover:bg-blue-900 hover:text-white transition duration-300 group">
@@ -90,9 +97,10 @@ export default function OrganizationalValuesSection() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-lg font-semibold mb-2">INOVATIF</h3>
+            <h3 className="text-lg font-semibold mb-2">RELEVANT</h3>
             <p className="text-sm">
-              Selalu mencari solusi kreatif dan terdepan
+              Semua kegiatan diselaraskan dengan visi pembangunan daerah dan
+              kebutuhan masyarakat Badung.
             </p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg hover:bg-blue-900 hover:text-white transition duration-300 group">
@@ -111,8 +119,11 @@ export default function OrganizationalValuesSection() {
                 ></path>
               </svg>
             </div>
-            <h3 className="text-lg font-semibold mb-2">BERKELANJUTAN</h3>
-            <p className="text-sm">Membangun masa depan yang lebih baik</p>
+            <h3 className="text-lg font-semibold mb-2">TIME BASED</h3>
+            <p className="text-sm">
+              Setiap program memiliki batas waktu pelaksanaan agar capaian dapat
+              dipantau secara teratur.
+            </p>
           </div>
         </div>
       </div>

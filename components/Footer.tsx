@@ -10,7 +10,7 @@ export default function Footer() {
               kesejahteraan masyarakat Badung.
             </p>
           </div>
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4">Kontak</h4>
             <div className="space-y-2 text-gray-400">
               <p>📍 Jl. Raya Mengwi, Badung, Bali</p>
@@ -25,7 +25,7 @@ export default function Footer() {
               <p>Sabtu: 08:00 - 12:00</p>
               <p>Minggu: Tutup</p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
