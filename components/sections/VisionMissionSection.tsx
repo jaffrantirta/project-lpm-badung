@@ -22,8 +22,8 @@ export default function VisionMissionSection() {
           <div className="bg-blue-900 text-white p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-6 text-center">VISI</h3>
             <p className="text-lg leading-relaxed text-center mt-0 md:mt-56">
-              &quot;MEWUJUDKAN PARIWISATA BADUNG YANG BERKUALITAS BERLANDASKAN
-              NILAI-NILAI NANGUN SAT KERTHI LOKA BALI&quot;
+              &quot;Sinergitas DPD LPM Kabupaten Badung Demi Mewujudkan Sapta
+              Kriya Pemerintah Kabupaten Badung&quot;
             </p>
           </div>
           <div className="bg-gray-100 p-8 rounded-lg">
