@@ -9,7 +9,8 @@ export default function Navigation() {
 
   const navLinks = [
     { name: "Beranda", href: "/" },
-    { name: "Tentang Kami", href: "/tentang-kami" },
+    { name: "Struktur Organisasi", href: "/struktur-organisasi" },
+    // { name: "Tentang Kami", href: "/tentang-kami" },
     // { name: "Program", href: "/program" },
   ];
 
