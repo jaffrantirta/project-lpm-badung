@@ -6,6 +6,7 @@ import VisionMissionSection from "@/components/sections/VisionMissionSection";
 import StatisticsSection from "@/components/sections/StatisticsSection";
 import Footer from "@/components/Footer";
 import Carousel from "@/components/sections/Corausel";
+import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 
 export default function Home() {
   const images = ["/images/banner.jpg"];
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       <Navigation />
+      <FloatingWhatsAppButton />
       {/* <HeroSection /> */}
       <Carousel images={images} />
       <AboutSection />
