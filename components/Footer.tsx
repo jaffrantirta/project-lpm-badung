@@ -6,7 +6,7 @@ export default function Footer() {
           <div>
             <div className="flex-shrink-0">
               <img
-                src="/logo.jpg"
+                src="/logo.png"
                 alt="Logo LPM Kabupaten Badung"
                 className="h-10 object-contain rounded-lg"
               />
@@ -17,15 +17,20 @@ export default function Footer() {
               kesejahteraan masyarakat Badung.
             </p>
           </div>
-          {/* <div>
-            <h4 className="text-lg font-semibold mb-4">Kontak</h4>
+          <div>
+            <h4 className="text-lg font-semibold mb-4">Kontak Pengaduan</h4>
             <div className="space-y-2 text-gray-400">
-              <p>📍 Jl. Raya Mengwi, Badung, Bali</p>
-              <p>📞 (0361) 123-4567</p>
-              <p>✉️ info@lpmbadung.go.id</p>
+              {/* <p>📍 Jl. Raya Mengwi, Badung, Bali</p> */}
+              <p>
+                📞 WhatsApp:{" "}
+                <a className="underline" href="https://wa.me/6281353388325">
+                  +62 813-5338-8325
+                </a>
+              </p>
+              {/* <p>✉️ info@lpmbadung.go.id</p> */}
             </div>
           </div>
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4">Jam Operasional</h4>
             <div className="space-y-2 text-gray-400">
               <p>Senin - Jumat: 08:00 - 16:00</p>

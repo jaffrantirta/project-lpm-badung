@@ -21,7 +21,7 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <div className="flex-shrink-0">
               <img
-                src="/logo.jpg"
+                src="/logo.png"
                 alt="Logo LPM Kabupaten Badung"
                 className="h-10 object-contain rounded-lg"
               />
