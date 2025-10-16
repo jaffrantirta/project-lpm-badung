@@ -104,13 +104,15 @@ export default function BidangSection() {
               key={index}
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300"
             >
-              <div className="w-16 h-16 bg-blue-900 rounded-lg flex items-center justify-center mb-4">
-                <item.icon className="w-8 h-8 text-white" />
+              <div className="justify-center flex w-full">
+                <div className="w-16 h-16 bg-blue-900 rounded-lg flex items-center justify-center mb-4">
+                  <item.icon className="w-8 h-8 text-white" />
+                </div>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              <h3 className="text-xl text-center font-semibold text-gray-900 mb-3">
                 {item.title}
               </h3>
-              <p className="text-gray-600">{item.description}</p>
+              <p className="text-gray-600 text-center">{item.description}</p>
             </div>
           ))}
         </div>

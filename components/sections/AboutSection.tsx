@@ -10,12 +10,12 @@ export default function AboutSection() {
         </div>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <p className="text-lg text-justify text-gray-700 leading-relaxed mb-6">
               Lembaga Pemberdayaan Masyarakat (LPM) Kabupaten Badung adalah
               lembaga pemerintah yang bertugas untuk memberdayakan masyarakat
               dalam berbagai aspek kehidupan sosial, ekonomi, dan budaya.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-justify text-gray-700 leading-relaxed">
               Kami berkomitmen untuk menjadi jembatan antara pemerintah dan
               masyarakat dalam mewujudkan pembangunan yang berkelanjutan dan
               inklusif di Kabupaten Badung.
@@ -41,9 +41,7 @@ export default function AboutSection() {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Melayani Masyarakat
               </h3>
-              <p className="text-gray-600">
-                Dengan dedikasi tinggi untuk kemajuan bersama
-              </p>
+              <p className="text-gray-600">REBORN OF SOUL KINDNESS</p>
             </div>
           </div>
         </div>
