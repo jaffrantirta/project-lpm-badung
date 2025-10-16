@@ -3,7 +3,7 @@ import React from "react";
 export default function FloatingWhatsAppButton() {
   return (
     <a
-      href="https://wa.me/6281353388325"
+      href="https://wa.me/6283141748248"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-4 right-4 z-50"

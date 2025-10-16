@@ -23,8 +23,8 @@ export default function Footer() {
               {/* <p>📍 Jl. Raya Mengwi, Badung, Bali</p> */}
               <p>
                 📞 WhatsApp:{" "}
-                <a className="underline" href="https://wa.me/6281353388325">
-                  +62 813-5338-8325
+                <a className="underline" href="https://wa.me/6283141748248">
+                  +62 831-4174-8248
                 </a>
               </p>
               {/* <p>✉️ info@lpmbadung.go.id</p> */}
