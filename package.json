@@ -11,7 +11,7 @@
     "@heroicons/react": "^2.2.0",
     "@supabase/ssr": "^0.8.0",
     "@supabase/supabase-js": "^2.94.0",
-    "next": "15.5.4",
+    "next": "^15.5.11",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
